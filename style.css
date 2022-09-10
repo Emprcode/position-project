@@ -1,0 +1,47 @@
+body{
+    font-size: 2rem;
+    margin: 0;
+
+}
+
+/* positions: static , initial, inherit, relative, absolute, fixed, sticky */
+
+.parent{
+    background: rgb(9, 134, 154);
+    position: relative;
+    padding: 1rem;
+
+}
+
+.parent div{
+    height: 150px;
+    padding: 3rem;
+    /* position: relative; */
+}
+.child1{
+    background: red;
+
+}
+.child2{
+    background: green;
+    /* position: fixed; */
+    /* position: absolute; */
+    /* position: relative; */
+
+    position: sticky ;
+
+    /* left, right, top, bottom  */
+
+    top: 50px;
+    /* left: 50px; */
+
+
+}
+.child3{
+    background: brown;
+
+}
+.nav{
+    background: grey;
+}
+
